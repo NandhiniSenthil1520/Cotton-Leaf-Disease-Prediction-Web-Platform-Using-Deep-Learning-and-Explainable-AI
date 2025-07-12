@@ -1,0 +1,13 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("seroshkarim/cotton-leaf-disease-dataset")
+
+print("Path to dataset files:", path)
+
+download this dataset and upload in this folder
+like : 
+"Cotton Leaf Disease Prediction Web Platform Using Deep Learning and Explainable AI\cotton\bacterial_blight"
+"Cotton Leaf Disease Prediction Web Platform Using Deep Learning and Explainable AI\cotton\curl_virus"
+"Cotton Leaf Disease Prediction Web Platform Using Deep Learning and Explainable AI\cotton\fussarium_wilt"
+"Cotton Leaf Disease Prediction Web Platform Using Deep Learning and Explainable AI\cotton\healthy"
